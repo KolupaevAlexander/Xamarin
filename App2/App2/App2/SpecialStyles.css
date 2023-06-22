@@ -1,0 +1,50 @@
+*
+{
+    margin:10;
+}
+/*Первая страница*/
+.firstPage {
+    color: brown;
+    background-color: lightblue;
+}
+
+.firstPage > slider
+{
+    color:orangered;
+    background-color:blue;
+}
+.firstPage > checkbox
+{
+    color: burlywood;
+    background-color: cadetblue;
+}
+
+/*Вторая страница*/
+.secondPage{
+    color:burlywood;
+    background-color:cadetblue;
+}
+
+.secondPage > slider {
+    color: forestgreen;
+    background-color: yellow;
+}
+
+
+/*Третья страница*/
+.thirdPage {
+    background-color: darkslateblue;
+    color: aqua;
+}
+
+.thirdPage > slider {
+    color: black;
+    background-color: rebeccapurple;
+}
+
+.enterButton
+{
+    background-color:wheat;
+    color:darkblue;
+    border-radius: 20;
+}

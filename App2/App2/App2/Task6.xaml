@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="App2.Task6"
+              x:Name="helloUser">
+    <CarouselPage.Resources>
+        <StyleSheet Source="/SpecialStyles.css"/>
+    </CarouselPage.Resources>
+    <ContentPage  StyleClass="firstPage">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center">
+                <Slider x:Name="FirstPageSlider"
+                        Minimum="0"
+                        Maximum="100"
+                        />
+                <Picker x:Name="FirstPagePicker"
+                        Title="Выберите опцию"
+                        >
+                    <Picker.Items>
+                        <x:String>1 опция</x:String>
+                        <x:String>2 опция</x:String>
+                        <x:String>3 опция</x:String>
+                    </Picker.Items>
+                </Picker>
+                <CheckBox x:Name="FirstPageCheckBox1"
+                          />
+                <CheckBox x:Name="FirstPageCheckBox2"
+                          />
+                <RadioButton x:Name="FirstPageRadioButton1"
+                             />
+                <RadioButton x:Name="FirstPageRadioButton2"
+                             />
+                <Switch x:Name="FirstPageSwitch"
+                        HorizontalOptions="Start"
+                        />
+            </StackLayout>
+    </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage StyleClass="secondPage">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" StyleClass="secondPage">
+                <Slider x:Name="SecondPageSlider"
+                        Minimum="0"
+                        Maximum="100"
+                        />
+                <Picker x:Name="SecondPagePicker"
+                        Title="Выберите опцию"
+                        >
+                    <Picker.Items>
+                        <x:String>1 опция</x:String>
+                        <x:String>2 опция</x:String>
+                        <x:String>3 опция</x:String>
+                    </Picker.Items>
+                </Picker>
+                <CheckBox x:Name="SecondPageCheckBox1"
+                          />
+                <CheckBox x:Name="SecondPageCheckBox2"
+                          />
+                <RadioButton x:Name="SecondPageRadioButton1"
+                             />
+                <RadioButton x:Name="SecondPageRadioButton2"
+                             />
+                <Switch x:Name="SecondPageSwitch"
+                        HorizontalOptions="Start"
+                        />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage StyleClass="thirdPage">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center">
+                <Slider x:Name="ThirdPageSlider"
+                        Minimum="0"
+                        Maximum="100"
+                        />
+                <Picker x:Name="ThirdPagePicker"
+                        Title="Выберите опцию"
+                        >
+                    <Picker.Items>
+                        <x:String>1 опция</x:String>
+                        <x:String>2 опция</x:String>
+                        <x:String>3 опция</x:String>
+                    </Picker.Items>
+                </Picker>
+                <CheckBox x:Name="ThirdPageCheckBox1"
+                          />
+                <CheckBox x:Name="ThirdPageCheckBox2"
+                          />
+                <RadioButton x:Name="ThirdPageRadioButton1"
+                             />
+                <RadioButton x:Name="ThirdPageRadioButton2"
+                             />
+                <Switch x:Name="ThirdPageSwitch"
+                        HorizontalOptions="Start"
+                        />
+                <Button x:Name="EnterButton"
+                        Text="Ввод"
+                        Clicked="EnterButton_Clicked"
+                        StyleClass="enterButton"
+                        />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>
